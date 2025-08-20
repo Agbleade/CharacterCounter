@@ -49,13 +49,14 @@ textarea {
 .endiv {
     display:flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     font-size: 1.6em;
     margin-bottom: 60px;
 }
 
 #countspan {
     margin-right:10px;
+    font-size:16px;
 }
 
 #actualcount {
@@ -81,4 +82,31 @@ footer {
 #inputspace {
     padding:15px 15px;
    
+}
+
+.charcount {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.wordcount {
+    display:flex;
+    align-items: center;
+    
+}
+
+#wcountspan {
+    margin-right:10px;
+    font-size:16px;
+}
+
+#wactualcount {
+    background:white;
+    border-radius:5px;
+    min-width:50px;
+    display:flex;
+    justify-content: center;
+    align-self: center;
+    color:black;
 }
